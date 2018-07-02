@@ -44,11 +44,7 @@ Now you can edit ``local.py`` for your dev environment and extend things like ``
 Installation
 ============
 
-This is a simple script that does not need to be installed or compiled. It's a run-once-and-discard project. You will want to ``curl`` or ``wget`` the ``modular_settings.py`` file to your project directory. Specifically to the directory where the default Django ``settings.py`` file resides. ::
-
-  curl -O https://raw.github.com/chrisjones-brack3t/django-modular-settings/master/modular_settings.py
-
-Or, if you prefer wget::
+This is a simple script that does not need to be installed or compiled. It's a run-once-and-discard project. You will want to ``wget`` the ``modular_settings.py`` file to your project directory. Specifically to the directory where the default Django ``settings.py`` file resides. ::
 
   wget https://raw.github.com/chrisjones-brack3t/django-modular-settings/master/modular_settings.py
 
@@ -57,7 +53,7 @@ Usage
 
 After downloading the file, run the script from your project directory. ::
 
-  python modular_settings.py
+  python2 modular_settings.py
 
 Assuming everything goes as planned, you should see a message saying your settings are now a little more awesome.
 
